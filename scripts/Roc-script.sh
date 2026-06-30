@@ -75,6 +75,7 @@ mv -f package/frp feeds/packages/net/frp
 git_sparse_clone frp-toml https://github.com/laipeng668/luci applications/luci-app-frpc applications/luci-app-frps
 mv -f package/luci-app-frpc feeds/luci/applications/luci-app-frpc
 mv -f package/luci-app-frps feeds/luci/applications/luci-app-frps
+git clone --depth=1 https://github.com/SunBK201/UA3F.git package/UA3F
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon feeds/luci/themes/luci-theme-argon
 git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config feeds/luci/applications/luci-app-argon-config
 git clone --depth=1 https://github.com/eamonxg/luci-theme-aurora feeds/luci/themes/luci-theme-aurora
