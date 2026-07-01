@@ -119,3 +119,6 @@ echo "baidu.com"  > package/luci-app-passwall/luci-app-passwall/root/usr/share/p
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
+
+echo "开始自动修复 Makefile Hash..."
+make package/openlist2/openlist2/check FIXUP=1 V=s
