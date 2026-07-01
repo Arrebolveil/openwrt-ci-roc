@@ -76,7 +76,7 @@ git_sparse_clone frp-toml https://github.com/laipeng668/luci applications/luci-a
 mv -f package/luci-app-frpc feeds/luci/applications/luci-app-frpc
 mv -f package/luci-app-frps feeds/luci/applications/luci-app-frps
 git clone --depth=1 https://github.com/SunBK201/UA3F.git package/UA3F
-git clone --depth=1 https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
+git clone --depth=1 https://github.com/kiddin9/rkp-ipid package/rkp-ipid
 
 mkdir -p package/base-files/files/etc/nftables.d
 cat << 'EOF' > package/base-files/files/etc/nftables.d/99-anti-detection.nft
